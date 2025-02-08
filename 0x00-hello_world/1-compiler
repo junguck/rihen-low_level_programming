@@ -1,0 +1,4 @@
+#!/bin/sh
+
+gcc -c main.c -o "${main%.c}.o"
+

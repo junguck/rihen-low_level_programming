@@ -1,0 +1,4 @@
+#!/bin/sh
+
+gcc -S "$CFILE" -o "${CFILE%.c}.s"
+
